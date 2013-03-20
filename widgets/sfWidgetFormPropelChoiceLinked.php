@@ -54,6 +54,12 @@ get_shipment_method:
   }
  *
  */
+
+/**
+ * Class sfWidgetFormPropelChoiceLinked
+ * @deprecated Consider using awgWidgetFormChoiceLinked instead
+ * @see awgWidgetFormChoiceLinked
+ */
 class sfWidgetFormPropelChoiceLinked extends sfWidgetFormPropelChoice
 {
   
@@ -108,6 +114,3 @@ EOT;
     
   }
 }
-
-?>
-
